@@ -1,3 +1,5 @@
+# Määrittelydokumentti
+
 Opinto-ohjelma: Matemaattisten tieteiden kandi
 
 Projekti on kivi-paperi-sakset peliä pelaava tekoäly.
