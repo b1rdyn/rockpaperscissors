@@ -30,4 +30,6 @@ Tilastollinen ennuste O(n) <br>
 Markovin ketju O(1)
 
 ### Lähteet: 
-TBA
+[Multi‑Ai competing and winning against humans in iterated Rock‑paper‑Scissors game](https://arxiv.org/pdf/2003.06769) 
+
+more TBA
