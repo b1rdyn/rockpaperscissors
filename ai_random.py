@@ -1,5 +1,6 @@
-
 import random
 
+MOVES = ["R", "P", "S"]
+
 def random_move():
-    return random.choice(["Rock", "Paper", "Scissors"])
+    return random.choice(MOVES)
