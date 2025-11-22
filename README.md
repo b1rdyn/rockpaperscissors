@@ -17,6 +17,7 @@ tilastolliseen ennustamiseen perustuvaan tekoälyyn.
 - [Viikkoraportti 1](Dokumentaatio/Viikkoraportit/Viikko1.md)
 - [Viikkoraportti 2](Dokumentaatio/Viikkoraportit/Viikko2.md)
 - [Viikkoraportti 3](Dokumentaatio/Viikkoraportit/Viikko3.md)
+- [Viikkoraportti 4](Dokumentaatio/Viikkoraportit/Viikko4.md)
 
 ## Käyttöohje
 - [Käyttöohje](Dokumentaatio/Kayttoohje.md)
