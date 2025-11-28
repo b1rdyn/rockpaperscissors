@@ -2,6 +2,7 @@ from typing import List
 from ai_markov import MarkovSingleAI, MOVES
 import random
 
+
 def score_for_ai(ai_move: str, player_move: str) -> int:
     if ai_move == player_move:
         return 0
@@ -17,12 +18,16 @@ def score_for_ai(ai_move: str, player_move: str) -> int:
 
 
 class MultiAI:
+
     def __init__(self, focus_length: int = 5):
         self.focus_length = focus_length
+
         self.single_ais: List[MarkovSingleAI] = [
             MarkovSingleAI(order=i) for i in range(1, 6)
         ]
+
         self.scores: List[List[int]] = [[] for _ in self.single_ais]
+
         self.last_moves: List[str] = [random.choice(MOVES) for _ in self.single_ais]
 
     def _best_ai_index(self) -> int:
@@ -32,6 +37,7 @@ class MultiAI:
         for i, score_history in enumerate(self.scores):
             window = score_history[-self.focus_length:]
             total = sum(window) if window else 0
+
             if total > best_score:
                 best_score = total
                 best_index = i
@@ -42,8 +48,8 @@ class MultiAI:
         for i, ai in enumerate(self.single_ais):
             self.last_moves[i] = ai.choose_move()
 
-        dominant_index = self._best_ai_index()
-        return self.last_moves[dominant_index]
+        best_ai_index = self._best_ai_index()
+        return self.last_moves[best_ai_index]
 
     def update(self, player_move: str) -> None:
         for i, ai in enumerate(self.single_ais):
