@@ -1,4 +1,3 @@
-import pytest
 from ai_multi import MultiAI, score_for_ai
 from ai_markov import MOVES
 
@@ -113,3 +112,22 @@ def test_multiai_dynamic_best_ai_selection_with_dummy_ais():
     ai.update("R")
     for d in dummy_ais:
         assert d.updated_with == ["R"]
+
+def test_multiai_all_ais_learn_some_transition_for_order_1():
+    ai = MultiAI()
+
+    for _ in range(5):
+        ai.choose_move()
+        ai.update("R")
+        ai.choose_move()
+        ai.update("P")
+
+    order1_ai = None
+    for single_ai in ai.single_ais:
+        if single_ai.order == 1:
+            order1_ai = single_ai
+            break
+
+    assert order1_ai is not None
+    state = ("R",)
+    assert order1_ai.transitions[state]["P"] >= 1

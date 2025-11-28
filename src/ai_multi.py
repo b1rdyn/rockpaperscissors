@@ -49,6 +49,9 @@ class MultiAI:
             self.last_moves[i] = ai.choose_move()
 
         best_ai_index = self._best_ai_index()
+
+        print(f"[DEBUG] Using AI #{best_ai_index + 1}")
+
         return self.last_moves[best_ai_index]
 
     def update(self, player_move: str) -> None:
