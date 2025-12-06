@@ -1,4 +1,4 @@
-Viikko 6
+# Viikko 6
 
 ## Tällä viikolla
 
