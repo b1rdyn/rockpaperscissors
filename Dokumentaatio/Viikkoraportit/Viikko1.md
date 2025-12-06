@@ -1,4 +1,4 @@
-Viikko 1
+# Viikko 1
 
 Perehdyin kurssimateriaaliin ja kurssin suoritustapoihin Valitsin itselleni aiheeksi Rock paper sciccors eli kivi paperi sakset pelin, koska sen taustalla olevat matemaattiset mallit kiinnostavat, esimerkiksi Markovin ketju.
 
