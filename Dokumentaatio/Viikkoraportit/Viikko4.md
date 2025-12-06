@@ -1,3 +1,5 @@
+# Viikko 4
+
 ### Tällä viikolla:
 - Kirjoitin käyttöohjeen projektille.
 - Laadin testausdokumentin ja sen rakenteen
@@ -11,4 +13,4 @@
 - Opin rakentamaan testihakemiston ja kirjoittamaan testejä
 
 
-Tällä viikolla olin kipeänä joten käytetty aika vain 6 tuntia
+Tällä viikolla olin kipeänä joten käytetty aika: 6 tuntia
