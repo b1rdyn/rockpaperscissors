@@ -6,11 +6,9 @@ tilastolliseen ennustamiseen perustuvaan tekoälyyn.
 
 ## Toiminnot
 
-- Komentoriviltä pelattava kivi–paperi–sakset -peli
-- Kaksi eri tekoälystrategiaa:
-  - **Satunnainen tekoäly**: valitsee siirron tasajakaumalla
-  - **Tilastollinen tekoäly**: seuraa pelaajan aiempia siirtoja ja yrittää valita siirron,
-    joka voittaa todennäköisimmän seuraavan siirron.
+- Komentoriviltä pelattavan kivi–paperi–sakset-pelin
+- Viidestä erillisestä Markov-tekoälystä koostuvan MultiAI-järjestelmän
+- Testit kaikille keskeisille komponenteille
 
 # Dokumentaatio
 ## Viikkoraportit
@@ -19,7 +17,8 @@ tilastolliseen ennustamiseen perustuvaan tekoälyyn.
 - [Viikkoraportti 3](Dokumentaatio/Viikkoraportit/Viikko3.md)
 - [Viikkoraportti 4](Dokumentaatio/Viikkoraportit/Viikko4.md)
 - [Viikkoraportti 5](Dokumentaatio/Viikkoraportit/Viikko5.md)
-
+- [Viikkoraportti 6](Dokumentaatio/Viikkoraportit/Viikko6.md)
+- 
 ## Käyttöohje
 - [Käyttöohje](Dokumentaatio/Kayttoohje.md)
 
