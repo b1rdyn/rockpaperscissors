@@ -1,3 +1,5 @@
+# Viikko 3
+
 ### Tällä viikolla olen
 - Rakentanut komentorivipohjaisen käyttöliittymän (main.py), jossa peliä voi pelata nopeasti
 - Aloittanut Markov-pohjaisen tekoälyn (ai_markov.py) suunnittelun ja toteutuksen
