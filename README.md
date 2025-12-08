@@ -11,6 +11,12 @@ tilastolliseen ennustamiseen perustuvaan tekoälyyn.
 - Testit kaikille keskeisille komponenteille
 
 # Dokumentaatio
+## Käyttöohje
+- [Käyttöohje](Dokumentaatio/Kayttoohje.md)
+
+## Testausraportti 
+- [Testausraportti](Dokumentaatio/Testausraportti.md)
+
 ## Viikkoraportit
 - [Viikkoraportti 1](Dokumentaatio/Viikkoraportit/Viikko1.md)
 - [Viikkoraportti 2](Dokumentaatio/Viikkoraportit/Viikko2.md)
@@ -18,11 +24,6 @@ tilastolliseen ennustamiseen perustuvaan tekoälyyn.
 - [Viikkoraportti 4](Dokumentaatio/Viikkoraportit/Viikko4.md)
 - [Viikkoraportti 5](Dokumentaatio/Viikkoraportit/Viikko5.md)
 - [Viikkoraportti 6](Dokumentaatio/Viikkoraportit/Viikko6.md)
-- 
-## Käyttöohje
-- [Käyttöohje](Dokumentaatio/Kayttoohje.md)
-
-## Testausraportti 
-- [Testausraportti](Dokumentaatio/Testausraportti.md)
+  
 
 
