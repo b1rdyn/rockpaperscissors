@@ -1,7 +1,7 @@
 # Käyttöohje
 ## Asennus ja käynnistys
 
-Kun olet kloonannut repositorion omalle koneellesi, siirry projektin juurihakemistoon ja käynnistä poetry komennolla
+Kloonaa repositorio omalle koneellesi, siirry projektin juurihakemistoon ja käynnistä poetry komennolla
 
 ```bash
 poetry shell
