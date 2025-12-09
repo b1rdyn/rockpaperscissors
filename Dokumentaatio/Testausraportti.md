@@ -29,8 +29,7 @@ Kaikki 9 tapausta (R/P/S × R/P/S) on käyty läpi.
 
 #### ai_random.py
 
-- Jokainen siirto esiintyi välillä 20–50 %  
-  → ei vinoumaa, toimii kuten satunnaisgeneraattori
+- Jokainen siirto esiintyy välillä 20–50 %  
 
 #### ai_markov.py
 
@@ -44,13 +43,13 @@ Kaikki 9 tapausta (R/P/S × R/P/S) on käyty läpi.
 - niiden `order`-arvot ovat `[1,2,3,4,5]`
 - jokainen AI tekee siirron joka kierroksella
 - jokaiselle AI:lle tallentuu yksi piste jokaiselta päivitetyltä kierrokselta
-- kunkin AI:n `history` kasvaa → kaikki oppivat pelaajan siirroista
+- kunkin AI:n `history` kasvaa
 - `_best_ai_index()` valitsee parhaimman AI:n viimeisen `focus_length` kierroksen perusteella.
 - paras AI tunnistetaan, kun yksi AI:sta on selvästi parempi
-- “focus window” toimii oikein: vain viimeiset N kierrosta vaikuttavat arvioon
+- focus window toimii oikein
 - erilaiset pistelistat palauttavat oikean indeksin
 - MultiAI:n palauttama siirto vastaa aina sen AI:n siirtoa, jolla on korkein nykyinen kokonaispistemäärä
-- kun pistetilanne muuttuu, myös “paras AI” voi vaihtua
+- kun pistetilanne muuttuu, myös “paras AI" voi vaihtua
 - MultiAI päivittää kaikki AI:t joka kierroksella
 
 #### main.py
