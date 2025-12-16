@@ -1,22 +1,19 @@
-[project]
+[tool.poetry]
 name = "rockpaperscissors"
 version = "0.1.0"
 description = "Rock-Paper-Scissors game with Markov-based MultiAI"
-authors = [
-    { name = "b1rdyn" }
-]
+authors = ["b1rdyn"]
 readme = "README.md"
-requires-python = ">=3.12"
+package-mode = false
 
-# Varsinaiset projektin riippuvuudet
-dependencies = {
-    matplotlib = ">=3.10.0,<4.0.0"
-}
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+matplotlib = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
-pytest = ">=9.0.1,<10.0.0"
-pytest-cov = ">=7.0.0,<8.0.0"
+pytest = "^9.0"
+pytest-cov = "^7.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=1.8.0"]
 build-backend = "poetry.core.masonry.api"
