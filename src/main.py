@@ -10,7 +10,7 @@ def main():
     print("Welcome to Rock Paper Scissors!")
     print("Choose [R]ock [P]aper or [S]cissors. [Q]uit.")
 
-    ai = MultiAI(focus_length=5)
+    ai = MultiAI(focus_length=5, debug=True)
     player_score = 0
     ai_score = 0
 
