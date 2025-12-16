@@ -18,8 +18,6 @@ pelaajan strategiaan.
   - hallitsee viittä erillistä Markov-tekoälyä
   - päivittää kaikkien tekoälyjen pisteet jokaisella kierroksella
   - valitsee aina kulloinkin parhaiten suoriutuvan tekoälyn tekemään varsinaisen siirron
--**ai_random.py**
-  Valitsee satunnaisen R, P tai S ensimmäisillä kierroksilla
 - **tests/**  
   Sisältää yksikkö- ja integraatiotestit keskeisille komponenteille.
   
