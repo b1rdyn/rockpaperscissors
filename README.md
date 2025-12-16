@@ -1,8 +1,6 @@
 # Rock-Paper-Scissors -tekoäly
 
 Tämä projekti toteuttaa kivi–paperi–sakset -peliä pelaavan tekoälyn Pythonilla.  
-Tavoitteena on tutkia eri algoritmisia lähestymistapoja ja verrata satunnaista pelaamista
-tilastolliseen ennustamiseen perustuvaan tekoälyyn.
 
 ## Toiminnot
 
@@ -16,6 +14,9 @@ tilastolliseen ennustamiseen perustuvaan tekoälyyn.
 
 ## Testausraportti 
 - [Testausraportti](Dokumentaatio/Testausraportti.md)
+
+## Toteutusraportti
+- [Toteutusdokumentti](Dokumentaatio/Toteutusdokumentti.md)
 
 ## Viikkoraportit
 - [Viikkoraportti 1](Dokumentaatio/Viikkoraportit/Viikko1.md)
