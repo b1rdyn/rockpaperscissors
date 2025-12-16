@@ -42,15 +42,16 @@ pelaajan strategiaan.
 **Mahdollisia parannuksia**
 - Siirtymätaulukkojen ja pistetietojen tallennus JSON-muotoon.
 
-##Laajojen kielimallien käyttö
+## Laajojen kielimallien käyttö
 Projektin toteutuksessa on käytetty ChatGPT apuna:
-- virheiden debuggaamisessa. Jos koodi ei ole mennyt läpi enkä löydä ratkaisua, olen kysynyt ChatGPT:ltä
-- selitysten ja raporttitekstin muotoilussa (.md muoto)
-
-Koodi on kirjoitettu ja ymmärretty tekijän toimesta.
+- virheiden debuggaamisessa
+- selitysten ja raporttitekstin muotoilussa
 
 ## Lähteet
-- *Multi-AI competing and winning against humans in iterated Rock-Paper-Scissors game*
+- [Multi-AI competing and winning against humans in iterated Rock-Paper-Scissors game](https://arxiv.org/pdf/2003.06769)
 - Wikipedia: Markovin ketju
 - Pythonin virallinen dokumentaatio
+- Eri youtube videot
+- [190 Lecture 29 Markov Chains](https://math.hawaii.edu/~dale/190/29l.pdf)
+- [How to win over 70% matches in Rock Paper Scissors](https://medium.com/data-science/how-to-win-over-70-matches-in-rock-paper-scissors-3e17e67e0dab)
 
