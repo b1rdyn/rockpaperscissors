@@ -27,10 +27,6 @@ Kaikki 9 tapausta (R/P/S × R/P/S) on käyty läpi.
 | S         | P       | AI voittaa      |
 | P         | S       | AI häviää       |
 
-#### ai_random.py
-
-- Jokainen siirto esiintyy välillä 20–50 %  
-
 #### ai_markov.py
 
 - oppiiko AI yksinkertaisen kuvion (esim. 8×R → ennustus R)
