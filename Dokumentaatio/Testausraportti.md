@@ -13,20 +13,6 @@ Testauksella varmistetaan, että
 Projektissa käytetään yksikkötestaukseen **pytest**-kirjastoa.  
 Yksikkötestit sijaitsevat `tests/`-hakemistossa.
 
-#### Pelin tuloslogiikka (`score_for_ai`)
-
-On testattu, että jokainen mahdollinen siirtoyhdistelmä tuottaa oikean tuloksen.  
-Kaikki 9 tapausta (R/P/S × R/P/S) on käyty läpi.
-
-| AI-siirto | Pelaaja | Odotettu tulos |
-|----------:|---------|-----------------|
-| R         | S       | AI voittaa      |
-| R         | P       | AI häviää       |
-| S         | S       | Tasapeli        |
-| P         | R       | AI voittaa      |
-| S         | P       | AI voittaa      |
-| P         | S       | AI häviää       |
-
 #### ai_markov.py
 
 - oppiiko AI yksinkertaisen kuvion (esim. 8×R → ennustus R)
