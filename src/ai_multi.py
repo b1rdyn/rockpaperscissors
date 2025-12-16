@@ -79,10 +79,3 @@ class MultiAI:
             s = score_for_ai(ai_move, player_move)
             self.scores[i].append(s)
             ai.update(player_move)
-
-# mahdollisia graafeja varten
-    def current_window_scores(self) -> List[int]:
-        return [
-            sum(history[-self.focus_length:]) if history else 0
-            for history in self.scores
-        ]
